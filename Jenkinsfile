@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url:'https://github.com/minkt78/guestbook.git'
+                git branch: 'master', url:'https://github.com/goodeeit/guestbook.git'
             }
         }
         stage('Build') {
